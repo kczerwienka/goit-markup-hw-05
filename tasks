@@ -1,0 +1,55 @@
+«A1» There is an images folder at the root of the project containing images.
+«A2» There is a css folder at the root of the project containing style files.
+«A3» All styles are written in one file styles.css, which is located in the css
+folder. «A4» File names contain only English letters and words, not uppercase
+letters, spaces, or transliteration. «A5» The source code is formatted using
+Prettier. «A6» All images and text content are taken from the layout. «A7» All
+raster images are optimized using squoosh. «A8» The code is written following
+the guidelines. Markup «B1» The page layout for the Portfolio is created in the
+portfolio.html file. «B2» The HTML layout of all elements from the layout is
+completed. «B3» Tags are used according to their semantic meaning. «B4» The HTML
+passes validation by the validator without errors. «B5» Class names are
+descriptive and understandable to other developers. «B6» Class names contain
+only English letters and words, not uppercase letters, spaces, transliteration,
+or tag names. If a class name consists of several words, they are separated by a
+hyphen. «B7» The href attribute of the navigation links Studio and Portfolio
+contains the relative path to the HTML files of these pages. When clicking on
+the link, it navigates to the corresponding page in the current browser tab.
+«B8» The <img /> tags have size attributes, at least width. «B9» Images are
+exported from the layout in jpg format. «B10» Groups of similar elements are
+gathered in
+<ul>
+  lists. «B11» The filter on the Portfolio page is implemented as a list of
+  buttons, each with a type="button" attribute. «B12» The header and footer
+  markup is identical on all pages. «B13» All necessary fonts and their
+  variations (weight and style) are connected from Google Fonts with one link.
+  The required weight for Raleway is 800, and for Roboto it is 400, 500, 700,
+  and 900. «B14» There are no additional elements, such as spans or links,
+  inside the button markup. Styling «C1» Class selectors are used for styling.
+  «C2» The styles do not contain !important. «C3» Interactive elements (buttons
+  and links) have an active state on mouse hover or keyboard focus as specified
+  in the Style guide (colour change). «С4» The contact text in the header
+  changes colour on hover and focus. «C5» CSS variables store the colour palette
+  of the layout (text, background, highlights).
+
+  <!-- «С6» The <body> element has the font-family property set to the dominant font in the layout Roboto. -->
+
+  <!-- «С7» Specify the font type (sans-serif) at the end of the font-family list in the <body> element. -->
+
+  <!-- «С8» The Roboto font family is explicitly set only for the <body> element. Other elements inherit it. -->
+
+  <!-- «С9» The <body> element has the color property set to the dominant text colour in the layout. Other text inherits or overrides this value. -->
+
+  «С10» The font size (font-size property) of all text elements exactly matches
+  the values from the layout. «С11» The line height (line-height property) of
+  all text elements exactly matches the values from the layout and is set as a
+  multiplier, not in px. «С12» The colour (color and background-colorproperties)
+  of all elements exactly matches the values from the layout. «С13» The font
+  weight (font-weight property) of all text elements exactly matches the values
+  from the layout. «C14» The font weight (font-weight property) is explicitly
+  specified only if the value in the layout differs from the default for that
+  element in the browser. «C15» Buttons have the cursor property set to pointer.
+  «C16» Styles do not repeat property values that are set by the browser by
+  default. For example, links do not need cursor: pointer, and paragraphs do not
+  need font-style: normal or font-weight: 400.
+</ul>
