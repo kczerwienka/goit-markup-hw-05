@@ -58,13 +58,33 @@
           <button type="button" data-modal-open>Order Service</button>
         </div>
 
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button class="close-button" data-modal-close>&times;</button>
-          </div>
-        </div>
-        <script src="./js/modal.js"></script>
+        
       </section>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="close-button" data-modal-close>&times;</button>
+          <p>
+            Leave your contacts and we will call you back
+          </p>
+          <form name="feedback_form" autocomplete="off" novalidate>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" />
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment" placeholder="Text input"></textarea>
+            <div id="terms">
+            <input type="checkbox" name="conditions" value="conditions" id="conditions" />
+              <label id="agreement">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+            </div>
+              <button type="submit" id="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <script src="./js/modal.js"></script>
+
       <section id="section-1" class="section">
         <div class="container">
           <ul class="section-1-content">
@@ -216,6 +236,13 @@
             <img src="images/facebook.svg" alt="facebook" />
             <img src="images/linkedin.svg" alt="linkedin" />
           </div>
+        </div>
+        <div id="footer-subscribe">
+          <p>Subscribe</p>
+          <form name="subscribe" autocomplete="off" novalidate>
+            <input type="text" name="email" id="email" placeholder="E-mail"/>
+            <button type="submit" id="subscribe">Subscribe</button>
+          </form>
         </div>
       </div>
     </footer>
